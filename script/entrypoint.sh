@@ -17,6 +17,9 @@ if [[ -z "$AIRFLOW__CORE__LOAD_EXAMPLES" && "${LOAD_EX:=n}" == n ]]; then
   AIRFLOW__CORE__LOAD_EXAMPLES=False
 fi
 
+# 
+AIRFLOW__CORE__LOAD_EXAMPLES=False
+
 export \
   AIRFLOW_HOME \
   AIRFLOW__CORE__EXECUTOR \

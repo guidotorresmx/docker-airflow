@@ -19,7 +19,7 @@ This repository contains **Dockerfile** of [apache-airflow](https://github.com/a
 
 Pull the image from the Docker repository.
 
-    docker pull puckel/docker-airflow
+    docker pull puckel/docker-airflow-modified
 
 ## Build
 
